@@ -1,0 +1,85 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f0f0f;
+    /* border: 1px solid white; */
+    padding: 8px;
+}
+
+.container .containt-container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+
+.container .side-bar {
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+    margin-right: 8px;
+}
+
+.container .side-bar .sidebar-top {
+    width: 100%;
+    height: 16%;
+    /* border: 1px solid white; */
+    background-color: #1f1f1f;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.container .side-bar .sidebar-top .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+.container .side-bar .sidebar-top .navbar li img {
+    width: 30px;
+}
+
+
+.container .side-bar .sidebar-bottom {
+    width: 100%;
+    height: 84%;
+    /* border: 1px solid white; */
+    background-color: #1f1f1f;
+    border-radius: 8px;
+
+}
+
+
+.container .content {
+    width: 76%;
+    height: 100%;
+    /* border: 1px solid white; */
+    background-color: #1f1f1f;
+    border-radius: 8px;
+
+}
+
+.container .play-music {
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid white; */
+}
